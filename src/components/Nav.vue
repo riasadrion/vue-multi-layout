@@ -1,6 +1,9 @@
 <template>
   <div>
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd">
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #e3f2fd"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
