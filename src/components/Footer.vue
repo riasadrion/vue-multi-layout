@@ -1,5 +1,9 @@
 <template>
   <div>
-    <h1>Footer Component</h1>
+    <footer class="footer mt-auto py-3 bg-secondary text-white fixed-bottom">
+      <div class="container text-center">
+        <span class="">Copyright &copy; 2021</span>
+      </div>
+    </footer>
   </div>
 </template>
