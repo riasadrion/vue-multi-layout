@@ -18,7 +18,6 @@ export default {
   },
   watch: {
     $route(to) {
-      // set layout by route meta
       if (to.meta.layout !== undefined) {
         this.layout = to.meta.layout;
       } else {

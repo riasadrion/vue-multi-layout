@@ -10,7 +10,7 @@ const router = new VueRouter({
       path: "/",
       component: () => import("./pages/Login.vue"),
       meta: {
-        layout: "Auth" // same here
+        layout: "Auth"
       }
     },
     {
